@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LOQ - Cinematic Scrollytelling Experience
 
-## Getting Started
+A high-performance, scroll-driven landing page built for fun to explore advanced web animation techniques. This project features a cinematic product disassembly animation controlled by scroll, designed for a fictional premium tech brand "LOQ".
 
-First, run the development server:
+![LOQ Demo](/public/lenovo/ezgif-frame-001.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Cinematic Scrollytelling**: Smooth, scroll-locked image sequence animation rendered via HTML5 Canvas for maximum performance (60fps).
+- **Premium Aesthetic**: Minimalist dark mode design with "San Francisco" style typography and subtle gradients.
+- **Interactive UI**:
+  - Sticky navbar with backdrop blur.
+  - Bento-grid features section with entry animations.
+  - Testimonial cards with modern gradient borders.
+- **Responsive**: Fully responsive design that maintains aspect ratios and readability across devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Rendering**: HTML5 Canvas (for the image sequence)
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    git clone https://github.com/pratham-prog861/lenovo-animated-website.git
+    cd lenovo-animated-website
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies:**
 
-## Deploy on Vercel
+    ```bash
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Run the development server:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    npm run dev
+    ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🎨 Credits
+
+- **Concept**: A fan-made project inspired by premium tech product pages.
+- **Assets**: Product images courtesy of Lenovo (used for educational/demonstration purposes only).
+
+---
+
+_Built for fun by Pratham._
